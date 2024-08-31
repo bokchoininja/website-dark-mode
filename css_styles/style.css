@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: white;
+  color: black;
+  font-family: Arial;
+}
+
+.dark_mode {
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: hsl(212, 76%, 58%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.nav_tabs:hover{
+  background-color: hsl(0, 0%, 10%);
+}
+
+.nav_tabs {
+  float: left;
+  font-size:15px;
+  font-family: Arial;
+  font-weight: 800;
+}
+
+.navbar i{
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 7px;
+  font-size: 23px;
+}
+
+.toggle_mode {
+  float: right;
+  font-size:15px;
+  font-family: Arial;
+  font-weight: 800;
+}
+
+.title_text {
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+}
